@@ -1,0 +1,17 @@
+{
+  "gitzone": {
+    "module": {
+      "githost": "gitlab.com",
+      "gitscope": "pushrocks",
+      "gitrepo": "smartlog-source-ora",
+      "shortDescription": "a smartlog source wrapping ora for local display",
+      "npmPackagename": "@pushrocks/smartlog-source-ora",
+      "license": "MIT",
+      "projectDomain": "push.rocks"
+    }
+  },
+  "npmci": {
+    "npmGlobalTools": [],
+    "npmAccessLevel": "public"
+  }
+}
