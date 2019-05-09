@@ -1,6 +1,6 @@
 {
   "name": "@pushrocks/smartlog-source-ora",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
   "description": "a smartlog source wrapping ora for local display",
   "main": "dist/index.js",
