@@ -6,9 +6,9 @@ export class SmartlogSourceOra {
 
   constructor() {}
 
-  public text (textArg: string) {
+  public text(textArg: string) {
     this.oraInstance.text = textArg;
-    if(!this.started) {
+    if (!this.started) {
       this.started = true;
       this.oraInstance.start();
     }
@@ -18,12 +18,12 @@ export class SmartlogSourceOra {
     this.oraInstance.stop();
   }
 
-  public finishSuccess (textArg?: string) {
+  public finishSuccess(textArg?: string) {
     this.oraInstance.succeed(textArg);
     this.started = false;
   }
 
-  public finishFail () {
+  public finishFail() {
     this.oraInstance.fail();
     this.started = false;
   }

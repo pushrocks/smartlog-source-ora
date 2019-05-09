@@ -3,12 +3,12 @@ import * as smartlogSourceOra from '../ts/index';
 
 let smartOra: smartlogSourceOra.SmartlogSourceOra;
 
-tap.test('should create an ora instance', async (tools) => {
+tap.test('should create an ora instance', async tools => {
   smartOra = new smartlogSourceOra.SmartlogSourceOra();
   expect(smartOra).to.be.instanceOf(smartlogSourceOra.SmartlogSourceOra);
 });
 
-tap.test('should start', async (tools) => {
+tap.test('should start', async tools => {
   smartOra.text('getting started...');
   await tools.delayFor(2000);
   smartOra.finishSuccess();
