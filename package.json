@@ -22,7 +22,6 @@
   },
   "dependencies": {
     "@pushrocks/smartlog-interfaces": "^2.0.5",
-    "@types/ora": "^3.2.0",
     "ora": "^3.4.0"
   }
 }
