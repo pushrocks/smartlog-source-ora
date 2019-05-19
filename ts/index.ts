@@ -23,8 +23,8 @@ export class SmartlogSourceOra {
     this.started = false;
   }
 
-  public finishFail() {
-    this.oraInstance.fail();
+  public finishFail(textArg?: string) {
+    this.oraInstance.fail(textArg);
     this.started = false;
   }
 
